@@ -244,6 +244,7 @@ function layout(t, { title, desc, p = "", body, active = "", og = "", kicker = "
 <link rel="icon" href="${BASE}favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:ital,wght@0,400..700;1,400..700&family=Noto+Sans+KR:wght@400;500;700&family=Noto+Sans+TC:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap">
 <link rel="stylesheet" href="${BASE}style.css?v=${V.css}">
 <script>document.documentElement.classList.add("js")</script>
 <script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "Organization", name: S.name, alternateName: S.name_ko, url: ABS, email: S.email, description: T.en.desc, logo: ABS + "favicon.svg" })}</script>
@@ -268,6 +269,7 @@ ${body}
     <div class="foot-partner"><p class="small">${esc(t.media)}</p><a class="cb" href="${S.chainbrief}" target="_blank" rel="noopener">CHAINBRIEF</a>${socials(t)}</div>
   </div>
   <div class="wrap foot-base"><p>${esc(t.footStatus)}</p><p>© 2026 ${esc(t.rights)}</p></div>
+  <p class="wrap seren-line" style="margin-top:-16px;margin-bottom:0;padding-bottom:32px;font:12px/1.6 'Tenor Sans',sans-serif;color:var(--muted)"><span style="letter-spacing:.2em">SEREN</span> <span style="color:#8C8478">/</span> ORIEL</p>
 </footer>
 <script src="${BASE}app.js?v=${V.js}" defer></script>
 <script src="https://probe2928-crypto.github.io/chainbrief/network.js" data-site="oriel" defer></script>
