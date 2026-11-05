@@ -272,7 +272,7 @@ ${body}
   <p class="wrap seren-line" style="margin-top:-16px;margin-bottom:0;padding-bottom:32px;font:12px/1.6 'Tenor Sans',sans-serif;color:var(--muted)"><span style="letter-spacing:.2em">SEREN</span> <span style="color:#8C8478">/</span> ORIEL</p>
 </footer>
 <script src="${BASE}app.js?v=${V.js}" defer></script>
-<script src="https://probe2928-crypto.github.io/chainbrief/network.js" data-site="oriel" defer></script>
+<script src="https://chainbrief.app/network.js" data-site="oriel" defer></script>
 </body>
 </html>`;
 }
