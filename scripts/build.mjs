@@ -49,7 +49,7 @@ const T = {
     howTitle: "How we work",
     how: [
       ["Local people lead", "Teachers, parents and community groups on the ground decide what is needed. We fund and support; we don't parachute in."],
-      ["Children are never the attraction", "No orphanage visits, no short trips to play with kids, no volunteer left alone with a child. We send skills, not sightseers."],
+      ["Children are never the attraction", "We volunteer together with local partner organisations. When we meet children, it is only alongside our local partners and under their child-protection rules, and no volunteer is ever left alone with a child. No orphanage visits."],
       ["Every photo has consent", "We photograph with a guardian's written consent, never at a child's lowest moment, and we never publish where a child lives."],
       ["Small first, then bigger", "One community and one partner before we take on a second. Buildings come only after the programs inside them work."],
     ],
@@ -108,7 +108,7 @@ const T = {
     howTitle: "일하는 원칙",
     how: [
       ["현지 사람들이 이끈다", "필요한 것은 현장의 선생님, 부모, 마을 단체가 정합니다. 우리는 돈과 손을 보탤 뿐, 밖에서 결정해 들이밀지 않습니다."],
-      ["아이는 구경거리가 아니다", "보육원 방문, 아이들과 놀아주는 단기 봉사는 하지 않습니다. 봉사자가 아이와 단둘이 있는 일도 없습니다. 구경꾼 대신 기술을 보냅니다."],
+      ["아이는 구경거리가 아니다", "봉사는 현지 봉사 단체와 협력해서 합니다. 아이들을 만날 땐 현지 파트너와 함께, 그 단체의 아동보호 규칙 아래에서만 만나고, 봉사자가 아이와 단둘이 있는 일은 없습니다. 보육원 방문은 하지 않습니다."],
       ["모든 사진은 동의를 받는다", "보호자의 서면 동의를 받아 촬영하고, 아이가 가장 힘든 순간은 찍지 않으며, 아이가 사는 곳은 공개하지 않습니다."],
       ["작게 시작해 크게", "한 마을, 한 파트너와 먼저 해낸 뒤에 다음 마을로 갑니다. 건물은 그 안의 프로그램이 돌아간 다음에 짓습니다."],
     ],
@@ -507,13 +507,13 @@ const thanks = (t) => `${pageHead(t.lang === "ko" ? "고맙습니다" : "Thank y
 const SAFE = {
   en: { title: "Safeguarding", lede: "Children come first, including in how we tell their stories.",
     items: [
-      ["Our commitments", ["Every partner we fund must have, or adopt with our help, a written child safeguarding policy.", "Anyone who works with children through us is screened, signs our code of conduct and is never left alone with a child.", "We do not support orphanage visits or short-term volunteering with children, and we do not fund residential care where family-based care is possible.", "Concerns are taken seriously, handled confidentially and reported to the right local authorities."]],
+      ["Our commitments", ["Every partner we fund must have, or adopt with our help, a written child safeguarding policy.", "Anyone who works with children through us is screened, signs our code of conduct and is never left alone with a child.", "Volunteer trips are run together with local partner organisations and follow their child-protection rules. We do not support orphanage visits, and we do not fund residential care where family-based care is possible.", "Concerns are taken seriously, handled confidentially and reported to the right local authorities."]],
       ["Photos and stories", ["We take and publish photos only with a guardian's written consent and the child's own agreement.", "We show children as people, not as objects of pity: no images at their lowest moments, no staged scenes.", "We never publish a child's full name, school name together with location, or anything that shows where they live.", "Photos are stripped of location data before they are published, and removed on request."]],
       ["Report a concern", ["If you are worried about a child connected to our work, email us with the subject \"Safeguarding\". If a child is in immediate danger, contact local emergency services first."]],
     ] },
   ko: { title: "아동보호 정책", lede: "아이가 먼저입니다. 아이들의 이야기를 전하는 방식에서도요.",
     items: [
-      ["우리의 약속", ["우리가 지원하는 모든 파트너는 서면 아동보호 정책을 갖추거나, 우리와 함께 마련합니다.", "우리를 통해 아이들과 일하는 사람은 모두 확인 절차를 거치고 행동강령에 서명하며, 아이와 단둘이 있지 않습니다.", "보육원 방문이나 아이들과의 단기 봉사는 지원하지 않으며, 가정 기반 돌봄이 가능한 곳에서 시설 보호를 지원하지 않습니다.", "문제 제기는 진지하게, 비밀을 지켜 다루고 현지 관계 기관에 알립니다."]],
+      ["우리의 약속", ["우리가 지원하는 모든 파트너는 서면 아동보호 정책을 갖추거나, 우리와 함께 마련합니다.", "우리를 통해 아이들과 일하는 사람은 모두 확인 절차를 거치고 행동강령에 서명하며, 아이와 단둘이 있지 않습니다.", "봉사 활동은 현지 봉사 단체와 협력해 진행하고 그 단체의 아동보호 규칙을 따릅니다. 보육원 방문은 지원하지 않으며, 가정 기반 돌봄이 가능한 곳에서 시설 보호를 지원하지 않습니다.", "문제 제기는 진지하게, 비밀을 지켜 다루고 현지 관계 기관에 알립니다."]],
       ["사진과 이야기", ["보호자의 서면 동의와 아이 본인의 동의가 있을 때만 촬영하고 게시합니다.", "아이를 동정의 대상이 아닌 한 사람으로 보여줍니다. 가장 힘든 순간이나 연출된 장면은 쓰지 않습니다.", "아이의 실명, 학교 이름과 위치를 함께, 또는 사는 곳을 알 수 있는 정보는 공개하지 않습니다.", "게시 전 사진의 위치 정보를 지우고, 요청이 있으면 내립니다."]],
       ["걱정되는 일 알리기", ["우리 활동과 관련된 아이에 대해 걱정되는 일이 있으면 제목에 \"Safeguarding\"을 적어 이메일을 보내 주세요. 아이가 당장 위험하다면 먼저 현지 긴급 기관에 연락해 주세요."]],
     ] },

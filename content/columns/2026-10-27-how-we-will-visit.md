@@ -16,7 +16,7 @@ Visitors who want to help children have, without meaning to, kept a harmful syst
 
 1. **We go where we are invited.** A local partner, a school or a community group, asks for the visit and sets the agenda. We support work they already run.
 2. **We go to work, not to be seen working.** Teacher training, books for a reading corner, a repair the school asked for, the logistics of a meal programme. Not a performance.
-3. **Children are never the attraction.** No orphanage visits, no sessions to play with children, and no visitor is ever alone with a child.
+3. **Children are never the attraction.** We visit together with local partner organisations and follow their child-protection rules. No orphanage visits, and no visitor is ever alone with a child.
 4. **Every photo has consent.** A guardian's written consent, never a child at their lowest moment, never a name next to a school and a place.
 5. **Every visit is on the record.** Each trip will have its own line in our public ledger, so anyone can see what it cost and who paid for it.
 
@@ -40,7 +40,7 @@ Our first visit is planned for 2027. Until then, we are writing the rules down, 
 
 1. **초대받은 곳에만 갑니다.** 현지 파트너(학교, 마을 단체)가 방문을 요청하고 일정을 정합니다. 우리는 그들이 이미 하고 있는 일을 돕습니다.
 2. **일하러 가지, 보여 주러 가지 않습니다.** 교사 연수, 독서 공간에 들어갈 책, 학교가 요청한 수리, 급식 준비. 보여 주기 위한 행사가 아닙니다.
-3. **아이는 구경거리가 아닙니다.** 보육원 방문, 아이들과 놀아 주는 시간은 없고, 방문자가 아이와 단둘이 있는 일도 없습니다.
+3. **아이는 구경거리가 아닙니다.** 방문은 현지 봉사 단체와 협력해서 하고 그 단체의 아동보호 규칙을 따릅니다. 보육원 방문은 하지 않고, 방문자가 아이와 단둘이 있는 일도 없습니다.
 4. **모든 사진은 동의를 받습니다.** 보호자의 서면 동의, 아이가 가장 힘든 순간은 찍지 않기, 이름과 학교·장소를 함께 밝히지 않기.
 5. **모든 방문은 기록에 남깁니다.** 방문마다 공개 장부에 별도 항목을 두어, 비용이 얼마였고 누가 냈는지 누구나 볼 수 있게 합니다.
 

@@ -20,7 +20,7 @@ Between now and January we will write the foundation's charter, invite advisers,
 
 ## What we will not do
 
-We will not run orphanage visits or short trips to play with children. We will not post photos taken without a guardian's consent. And we will not ask anyone to send crypto to an address until it is published on our [transparency page](transparency/).
+When we volunteer, we do it together with local partner organisations, and we meet children only alongside them and under their child-protection rules. We will not run orphanage visits. We will not post photos taken without a guardian's consent. And we will not ask anyone to send crypto to an address until it is published on our [transparency page](transparency/).
 
 If you'd like to follow along, or help with a skill you already have, [join the founding circle](get-involved/).
 <!-- ko -->
@@ -36,6 +36,6 @@ If you'd like to follow along, or help with a skill you already have, [join the 
 
 ## 하지 않을 일
 
-보육원 방문이나 아이들과 놀아주는 단기 봉사는 하지 않습니다. 보호자 동의 없이 찍은 사진은 올리지 않습니다. 그리고 [투명성 페이지](transparency/)에 게시하기 전까지 어떤 주소로도 암호화폐를 보내 달라고 하지 않습니다.
+봉사는 현지 봉사 단체와 협력해서 하고, 아이들을 만날 땐 현지 파트너와 함께 그 단체의 아동보호 규칙 아래에서만 만납니다. 보육원 방문은 하지 않습니다. 보호자 동의 없이 찍은 사진은 올리지 않습니다. 그리고 [투명성 페이지](transparency/)에 게시하기 전까지 어떤 주소로도 암호화폐를 보내 달라고 하지 않습니다.
 
 함께 지켜보고 싶거나 가진 재능으로 돕고 싶다면 [창립 서포터로 신청](get-involved/)해 주세요.
