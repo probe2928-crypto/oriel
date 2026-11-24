@@ -18,8 +18,8 @@ const WM = fs.readFileSync(path.join(ROOT, "dist", "index.html"), "utf8").match(
 const img = (f) => fs.readFileSync(path.join(ROOT, "public", "brand", f)).toString("base64");
 
 const TEXT = {
-  en: { kick: "GivingTuesday · 1 December 2026", head: "Today we are not asking for money.", sub: "We are asking you to watch the window: every gift on the record, from the first one, once we are registered.", zh: "今天我們不募款，只請你一起看著這扇窗。", foot: "Oriel Foundation · In formation · Not taking donations yet" },
-  ko: { kick: "GivingTuesday · 2026년 12월 1일", head: "오늘 오리엘은 돈을 요청하지 않습니다.", sub: "대신 이 창을 함께 지켜봐 주세요. 등록 후 첫 기부부터 모든 기록을 공개합니다.", zh: "今天我們不募款，只請你一起看著這扇窗。", foot: "오리엘 재단 · 설립 준비 중 · 아직 기부를 받지 않습니다" },
+  en: { kick: "GivingTuesday · 1 December 2026", head: "Today we are not asking for money.", sub: "Give time instead: join a volunteer trip, share a skill, or introduce us to a trusted local partner.", zh: "今天不募款，請分享你的時間與專長。", foot: "Oriel Foundation · In formation · Not taking donations yet" },
+  ko: { kick: "GivingTuesday · 2026년 12월 1일", head: "오늘 오리엘은 돈을 요청하지 않습니다.", sub: "대신 시간을 나눠 주세요. 봉사 여행에 함께하거나, 재능을 보태거나, 믿을 만한 현지 단체를 소개해 주세요.", zh: "今天不募款，請分享你的時間與專長。", foot: "오리엘 재단 · 설립 준비 중 · 아직 기부를 받지 않습니다" },
 };
 
 function html(lang, w, h) {
