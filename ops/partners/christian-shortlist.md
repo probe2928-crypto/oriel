@@ -39,11 +39,12 @@ Filter: hosts short-term teams · written child protection policy · education /
 | 2026-11-25 | FCF Thailand | info@fcfthailand.org | Sent – team hosting + policy |
 | 2026-11-25 | Nazarene Asia-Pacific | news@apnaz.org (contact form blocked by CAPTCHA) | Sent – asked to forward to missions/PH field |
 
-## Standing rules for the partnership staff (오리온)
-- Christian-founded organisations only; confirm on the official site (statement of faith / church origin).
-- Each run: research at least 2 new Christian candidates (PH first, then TH, VN), add them to the tables above with evidence, then email the best uncontacted one that has a public email.
-- Never solve CAPTCHAs; if a form is blocked, use a public email on the official site or skip.
-- Follow-up once after 7 days, then stop. Log every email here.
+## Standing rules for the partnership staff (오리온) — updated 2026-11-25 by Sejun
+- FOCUS: Oriel will work with only 1-2 Christian partners and help them steadily over the long term. Depth over breadth.
+- NO new cold outreach. Only handle the three already contacted (PCMN, FCF, Nazarene AP): watch for replies, one follow-up after 7 days without reply, then stop.
+- Pick the final 1-2 from the replies: Christian basis, written child protection policy, real education/food/housing work, can host a small team repeatedly, honest about costs.
+- Research new organisations only if all three decline or don't respond by 2026-12-16, and then email at most one.
+- Never solve CAPTCHAs. Log every email here.
 
 ## Next steps
 1. Done 2026-11-25: PCMN, FCF Thailand, Nazarene AP emailed. Next candidates: Children's Garden / CARE Philippines, Habitat Vietnam, L.O.V.E. Vietnam.
