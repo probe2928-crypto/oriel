@@ -24,7 +24,7 @@ const T = {
     lang: "en", htmlLang: "en", pre: "", other: "ko", otherLabel: "한국어", otherShort: "KO",
     name: S.name, tag: "Light for learning. Glass for giving.",
     desc: "Oriel is a foundation in the making for families who need a hand and the children we love: learning first, then everyday support for children and the families struggling to get by, then the classrooms and schools a community asks for. Every gift traceable on-chain.",
-    nav: [["plan/", "Plan"], ["partners/", "Partners"], ["journal/", "Journal"], ["columns/", "Column"], ["get-involved/", "Get involved", "Join"], ["about/", "About"]],
+    nav: [["plan/", "Plan"], ["partners/", "Partners"], ["volunteer/", "Volunteer"], ["journal/", "Journal"], ["columns/", "Column"], ["get-involved/", "Get involved", "Join"], ["about/", "About"]],
     join: "Join the founding circle", readPlan: "Read the plan",
     status: "Founding stage. We are not taking donations yet. Giving opens once the foundation is registered, and every transaction will be public from the first one.",
     heroLede: "We are a foundation in the making for families who need a hand and the children we love. We start with learning, add everyday support for children and for families who are struggling to get by, and grow toward the roads, buildings and schools a community needs.",
@@ -83,7 +83,7 @@ const T = {
     lang: "ko", htmlLang: "ko", pre: "ko/", other: "en", otherLabel: "English", otherShort: "EN",
     name: S.name_ko, tag: "배움에는 빛을, 기부에는 창을.",
     desc: "오리엘은 도움이 필요한 가정과 사랑스러운 아이들을 위해 준비 중인 재단입니다. 배움에서 시작해 아이와 어려운 가정의 생활을 돕고, 마을이 원하는 교실과 학교까지 짓습니다. 모든 기부는 블록체인에 기록됩니다.",
-    nav: [["plan/", "계획"], ["partners/", "파트너"], ["journal/", "활동 일지"], ["columns/", "칼럼"], ["get-involved/", "함께하기"], ["about/", "소개"]],
+    nav: [["plan/", "계획"], ["partners/", "파트너"], ["volunteer/", "봉사 여행"], ["journal/", "활동 일지"], ["columns/", "칼럼"], ["get-involved/", "함께하기"], ["about/", "소개"]],
     join: "창립 서포터 신청", readPlan: "계획 보기",
     status: "설립 준비 단계입니다. 아직 기부를 받지 않습니다. 재단 등록을 마친 뒤 기부를 열고, 첫 거래부터 모두 공개합니다.",
     heroLede: "도움이 필요한 가정과 사랑스러운 아이들을 위해 준비 중인 재단입니다. 배움에서 시작해, 아이와 형편이 어려운 가정의 생활을 함께 돕고, 마을에 필요한 길과 건물, 학교까지 짓는 것이 목표입니다.",
@@ -217,8 +217,8 @@ const fmtDate = (d, t) => { try { return new Date(d + "T00:00:00Z").toLocaleDate
 // 페이지별 공유 이미지: public/og/<key>.jpg 가 있으면 그걸 쓰고(만드는 법: node scripts/og.mjs), 없으면 og.png
 const OG_PAGES = [];
 const OG_KICK = {
-  en: { plan: "The plan", partners: "Partners", journal: "Field journal", columns: "Column", notes: "Notes", "get-involved": "Get involved", faq: "Questions", about: "About", safeguarding: "Safeguarding", transparency: "Transparency" },
-  ko: { plan: "계획", partners: "파트너", journal: "활동 일지", columns: "칼럼", notes: "읽을거리", "get-involved": "함께하기", faq: "자주 묻는 질문", about: "소개", safeguarding: "아동보호", transparency: "투명성" },
+  en: { volunteer: "Volunteer trips", plan: "The plan", partners: "Partners", journal: "Field journal", columns: "Column", notes: "Notes", "get-involved": "Get involved", faq: "Questions", about: "About", safeguarding: "Safeguarding", transparency: "Transparency" },
+  ko: { volunteer: "봉사 여행", plan: "계획", partners: "파트너", journal: "활동 일지", columns: "칼럼", notes: "읽을거리", "get-involved": "함께하기", faq: "자주 묻는 질문", about: "소개", safeguarding: "아동보호", transparency: "투명성" },
 };
 const ogKey = (t, p) => (t.pre + (p || "home/")).replace(/\/$/, "").replace(/\//g, "--");
 function layout(t, { title, desc, p = "", body, active = "", og = "", kicker = "" }) {
@@ -504,6 +504,24 @@ ${tgContact(t)}
 
 const thanks = (t) => `${pageHead(t.lang === "ko" ? "고맙습니다" : "Thank you", t.lang === "ko" ? "잘 받았습니다. 곧 이메일로 연락드릴게요." : "We have your note and will write back by email soon.")}<section class="wrap"><p><a class="btn btn-quiet" href="${u(t)}">${t.lang === "ko" ? "처음으로" : "Back to the start"}</a></p></section>`;
 
+const VOL = {
+  en: { title: "Volunteer trips", lede: "Short trips to the Philippines, Thailand and Vietnam, always together with a local volunteer organisation.",
+    items: [
+      ["Where we're going", ["Philippines: 5 days this winter, our first trip, with a local volunteer organisation. Dates and region are being finalised.", "Thailand and Vietnam: next, once we have a trusted local partner in each country.", "We'll publish dates, places and costs here as soon as they're confirmed, and tell everyone who has asked first."]],
+      ["What volunteers do", ["Help local partners with what they already run: reading and English sessions alongside their teachers, sharing meals, carrying supplies, tidying classrooms and small repairs.", "Listen and learn, so Oriel's future programmes fit what families there actually need.", "Bring back honest stories and photos (only with consent) to share what we saw."]],
+      ["How we keep children safe", ["Every trip is run together with a local partner organisation and follows its child-protection rules.", "We meet children only alongside local partners. No volunteer is ever left alone with a child. No orphanage visits.", "Every volunteer reads our safeguarding policy and signs our code of conduct before the trip."]],
+      ["Who can come", ["Anyone with a warm heart. No experience needed: teachers, students, parents, nurses, builders, people of faith or not.", "Costs, age requirements and what to prepare will be shared together with the trip details."]],
+      ["Join a trip", ["Send us a message on Telegram @btcbullit or Instagram @orielfoundation, or email us (address at the bottom of this page), with your name, which country interests you and when you're free.", "Follow our Telegram channel t.me/oriel_foundation for trip updates."]],
+    ] },
+  ko: { title: "봉사 여행", lede: "필리핀·태국·베트남으로 떠나는 짧은 봉사. 언제나 현지 봉사 단체와 함께합니다.",
+    items: [
+      ["어디로 가나요", ["필리핀: 이번 겨울 5일, 첫 봉사입니다. 현지 봉사 단체와 함께하며 날짜와 지역은 확정 중입니다.", "태국·베트남: 나라마다 믿을 수 있는 현지 파트너를 찾은 뒤 이어 갑니다.", "날짜·장소·비용이 확정되면 이 페이지에 가장 먼저 올리고, 문의 주신 분들께 먼저 알려드립니다."]],
+      ["무엇을 하나요", ["현지 단체가 이미 하고 있는 일을 돕습니다. 그곳 선생님들과 함께하는 책 읽기·영어 시간, 식사 나눔, 물품 나르기, 교실 정리와 작은 수리.", "듣고 배웁니다. 오리엘의 앞으로의 프로그램이 그곳 가정에 정말 필요한 것이 되도록.", "본 것을 정직하게 기록해 나눕니다(사진은 동의를 받은 것만)."]],
+      ["아이들을 어떻게 지키나요", ["모든 봉사는 현지 봉사 단체와 협력해 진행하고, 그 단체의 아동보호 규칙을 따릅니다.", "아이들은 현지 파트너와 함께 있을 때만 만납니다. 봉사자가 아이와 단둘이 있는 일은 없습니다. 보육원 방문은 하지 않습니다.", "모든 봉사자는 출발 전 아동보호 정책을 읽고 행동강령에 서명합니다."]],
+      ["누가 갈 수 있나요", ["따뜻한 마음이 있는 누구나. 경험은 필요 없습니다. 선생님, 학생, 부모, 간호사, 기술자, 신앙이 있든 없든 모두 환영합니다.", "비용, 참가 나이, 준비물은 일정이 확정될 때 함께 안내합니다."]],
+      ["함께 가기", ["텔레그램 @btcbullit, 인스타그램 @orielfoundation, 또는 이메일(페이지 맨 아래 주소)로 이름, 관심 있는 나라, 가능한 시기를 보내 주세요.", "봉사 소식은 텔레그램 채널 t.me/oriel_foundation에서 가장 먼저 전합니다."]],
+    ] },
+};
 const SAFE = {
   en: { title: "Safeguarding", lede: "Children come first, including in how we tell their stories.",
     items: [
@@ -653,6 +671,7 @@ for (const t of [T.en, T.ko]) {
   write(P + "safeguarding/index.html", layout(t, { title: SAFE[t.lang].title, desc: SAFE[t.lang].lede, p: "safeguarding/", body: policyPage(t, SAFE[t.lang]) }));
   write(P + "transparency/index.html", layout(t, { title: TRANS[t.lang].title, desc: TRANS[t.lang].lede, p: "transparency/", body: policyPage(t, TRANS[t.lang]) }));
   write(P + "partners/index.html", layout(t, { title: PARTNERS[t.lang].title, desc: PARTNERS[t.lang].lede, p: "partners/", active: "partners/", body: partners(t) }));
+  write(P + "volunteer/index.html", layout(t, { title: VOL[t.lang].title, desc: VOL[t.lang].lede, p: "volunteer/", active: "volunteer/", body: policyPage(t, VOL[t.lang]) }));
   write(P + "faq/index.html", layout(t, { title: FAQ[t.lang].title, desc: FAQ[t.lang].lede, p: "faq/", body: faq(t) }));
   write(P + "about/index.html", layout(t, { title: ABOUT[t.lang].title, desc: ABOUT[t.lang].lede, p: "about/", active: "about/", body: about(t) }));
 }
@@ -660,7 +679,7 @@ write("404.html", layout(T.en, { title: "Page not found", p: "", body: `${pageHe
 
 for (const f of fs.readdirSync(path.join(ROOT, "public"))) fs.cpSync(path.join(ROOT, "public", f), path.join(DIST, f), { recursive: true });
 copyDir(path.join(ROOT, "images"), "images");
-const pages = ["", "plan/", "partners/", "faq/", "journal/", "get-involved/", "safeguarding/", "transparency/", "about/", "notes/", "columns/", ...COLUMNS.map((n) => `columns/${n.slug}/`), ...JOURNAL.map((p) => `journal/${p.slug}/`), ...NOTES.map((n) => `notes/${n.slug}/`)];
+const pages = ["", "volunteer/", "plan/", "partners/", "faq/", "journal/", "get-involved/", "safeguarding/", "transparency/", "about/", "notes/", "columns/", ...COLUMNS.map((n) => `columns/${n.slug}/`), ...JOURNAL.map((p) => `journal/${p.slug}/`), ...NOTES.map((n) => `notes/${n.slug}/`)];
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.flatMap((p) => [ABS + p, ABS + "ko/" + p]).map((l) => `<url><loc>${l}</loc></url>`).join("")}</urlset>\n`);
 write("og-pages.json", JSON.stringify(OG_PAGES, null, 1));
 // 공유 이미지 점검: 이미지가 없는 페이지와, 페이지가 없어진 이미지를 알려 준다 (빌드는 계속)
