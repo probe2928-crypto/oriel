@@ -319,6 +319,7 @@ ${heroLight(t)}
 <div class="wrap">${statusBar(t)}</div>
 ${ticker(t)}
 
+<section class="film" aria-label="${t.lang === "ko" ? "오리엘 소개 영상" : "Oriel introduction film"}"><div class="wrap"><video class="film-v" autoplay muted loop playsinline preload="metadata" poster="${BASE}film/poster.jpg"><source media="(max-width: 700px)" src="${BASE}film/oriel-intro-vert.mp4" type="video/mp4"><source src="${BASE}film/oriel-intro-wide.mp4" type="video/mp4"></video></div></section>
 <section class="band path-band">
   <div class="wrap">
     <header class="sec-head"><h2>${esc(t.pathTitle)}</h2><p>${esc(t.pathLede)}</p></header>
