@@ -32,7 +32,20 @@ Filter: hosts short-term teams · written child protection policy · education /
 | 3 | Mission Alliance Vietnam (Ho Chi Minh City; Mekong Delta) | Norwegian Christian development org; education/livelihood |
 | 4 | Samaritan's Purse Vietnam | Health, WASH, education, protection |
 
+## Outreach log (do NOT re-email; follow up only after 7 days without reply)
+| Date | Organisation | Sent to | Status |
+|---|---|---|---|
+| 2026-11-25 | PCMN | pcmn2016@gmail.com (cc thepcmn2020@gmail.com) | Sent – referral ask |
+| 2026-11-25 | FCF Thailand | info@fcfthailand.org | Sent – team hosting + policy |
+| 2026-11-25 | Nazarene Asia-Pacific | news@apnaz.org (contact form blocked by CAPTCHA) | Sent – asked to forward to missions/PH field |
+
+## Standing rules for the partnership staff (오리온)
+- Christian-founded organisations only; confirm on the official site (statement of faith / church origin).
+- Each run: research at least 2 new Christian candidates (PH first, then TH, VN), add them to the tables above with evidence, then email the best uncontacted one that has a public email.
+- Never solve CAPTCHAs; if a form is blocked, use a public email on the official site or skip.
+- Follow-up once after 7 days, then stop. Log every email here.
+
 ## Next steps
-1. Oriel outreach email: PCMN (referral ask), Nazarene Asia-Pacific (team service), FCF Thailand (policy + hosting).
+1. Done 2026-11-25: PCMN, FCF Thailand, Nazarene AP emailed. Next candidates: Children's Garden / CARE Philippines, Habitat Vietnam, L.O.V.E. Vietnam.
 2. Ask each: written child protection policy, team size/dates (Dec 2026 - Feb 2027), cost per person, what volunteers actually do.
 3. Do not ask volunteers about their own faith; the Christian rule applies to partner organisations.
