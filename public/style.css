@@ -587,3 +587,14 @@ h1, h2, h3, .display, .sec-head h2, .page-head h1, .post-head h1, .cta h2 { font
 .form label:focus-within { color: var(--ink); }
 .skip:focus { outline: 2px solid var(--paper); outline-offset: -5px; }
 @media (forced-colors: active) { :focus-visible, .form input:focus-visible, .form select:focus-visible, .form textarea:focus-visible { outline: 2px solid CanvasText; } }
+
+/* SNS channels */
+.chan-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; margin: 8px 0 24px; }
+.chan { display: flex; flex-direction: column; gap: 6px; padding: 22px 22px 20px; border: 1px solid var(--ink); color: var(--ink); text-decoration: none; background: rgba(255,255,255,.28); transition: background .15s, transform .15s; }
+.chan:hover, .chan:focus-visible { background: var(--ink); color: #f4e6da; transform: translateY(-2px); }
+.chan:hover .chan-text, .chan:focus-visible .chan-text { color: #f4e6da; }
+.chan-name { font: 700 22px/1.1 var(--f-disp); letter-spacing: -.01em; }
+.chan-handle { font-size: 14px; opacity: .75; }
+.chan-text { font-size: 15px; line-height: 1.6; color: var(--text); margin-top: 6px; flex: 1; }
+.chan-go { font-size: 14px; font-weight: 600; margin-top: 10px; }
+.follow-band .sec-head p { margin: 6px 0 0; }

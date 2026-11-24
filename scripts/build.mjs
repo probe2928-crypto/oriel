@@ -24,7 +24,7 @@ const T = {
     lang: "en", htmlLang: "en", pre: "", other: "ko", otherLabel: "한국어", otherShort: "KO",
     name: S.name, tag: "Light for learning. Glass for giving.",
     desc: "Oriel is a foundation in the making for families who need a hand and the children we love: learning first, then everyday support for children and the families struggling to get by, then the classrooms and schools a community asks for. Every gift traceable on-chain.",
-    nav: [["plan/", "Plan"], ["partners/", "Partners"], ["volunteer/", "Volunteer"], ["journal/", "Journal"], ["columns/", "Column"], ["get-involved/", "Get involved", "Join"], ["about/", "About"]],
+    nav: [["plan/", "Plan"], ["partners/", "Partners"], ["volunteer/", "Volunteer"], ["journal/", "Journal"], ["columns/", "Column"], ["get-involved/", "Get involved", "Join"], ["follow/", "Follow"], ["about/", "About"]],
     join: "Join the founding circle", readPlan: "Read the plan",
     status: "Founding stage. We are not taking donations yet. Giving opens once the foundation is registered, and every transaction will be public from the first one.",
     heroLede: "We are a foundation in the making for families who need a hand and the children we love. We start with learning, add everyday support for children and for families who are struggling to get by, and grow toward the roads, buildings and schools a community needs.",
@@ -83,7 +83,7 @@ const T = {
     lang: "ko", htmlLang: "ko", pre: "ko/", other: "en", otherLabel: "English", otherShort: "EN",
     name: S.name_ko, tag: "배움에는 빛을, 기부에는 창을.",
     desc: "오리엘은 도움이 필요한 가정과 사랑스러운 아이들을 위해 준비 중인 재단입니다. 배움에서 시작해 아이와 어려운 가정의 생활을 돕고, 마을이 원하는 교실과 학교까지 짓습니다. 모든 기부는 블록체인에 기록됩니다.",
-    nav: [["plan/", "계획"], ["partners/", "파트너"], ["volunteer/", "봉사 여행"], ["journal/", "활동 일지"], ["columns/", "칼럼"], ["get-involved/", "함께하기"], ["about/", "소개"]],
+    nav: [["plan/", "계획"], ["partners/", "파트너"], ["volunteer/", "봉사 여행"], ["journal/", "활동 일지"], ["columns/", "칼럼"], ["get-involved/", "함께하기"], ["follow/", "SNS"], ["about/", "소개"]],
     join: "창립 서포터 신청", readPlan: "계획 보기",
     status: "설립 준비 단계입니다. 아직 기부를 받지 않습니다. 재단 등록을 마친 뒤 기부를 열고, 첫 거래부터 모두 공개합니다.",
     heroLede: "도움이 필요한 가정과 사랑스러운 아이들을 위해 준비 중인 재단입니다. 배움에서 시작해, 아이와 형편이 어려운 가정의 생활을 함께 돕고, 마을에 필요한 길과 건물, 학교까지 짓는 것이 목표입니다.",
@@ -217,8 +217,8 @@ const fmtDate = (d, t) => { try { return new Date(d + "T00:00:00Z").toLocaleDate
 // 페이지별 공유 이미지: public/og/<key>.jpg 가 있으면 그걸 쓰고(만드는 법: node scripts/og.mjs), 없으면 og.png
 const OG_PAGES = [];
 const OG_KICK = {
-  en: { volunteer: "Volunteer trips", plan: "The plan", partners: "Partners", journal: "Field journal", columns: "Column", notes: "Notes", "get-involved": "Get involved", faq: "Questions", about: "About", safeguarding: "Safeguarding", transparency: "Transparency" },
-  ko: { volunteer: "봉사 여행", plan: "계획", partners: "파트너", journal: "활동 일지", columns: "칼럼", notes: "읽을거리", "get-involved": "함께하기", faq: "자주 묻는 질문", about: "소개", safeguarding: "아동보호", transparency: "투명성" },
+  en: { follow: "Follow", volunteer: "Volunteer trips", plan: "The plan", partners: "Partners", journal: "Field journal", columns: "Column", notes: "Notes", "get-involved": "Get involved", faq: "Questions", about: "About", safeguarding: "Safeguarding", transparency: "Transparency" },
+  ko: { follow: "SNS", volunteer: "봉사 여행", plan: "계획", partners: "파트너", journal: "활동 일지", columns: "칼럼", notes: "읽을거리", "get-involved": "함께하기", faq: "자주 묻는 질문", about: "소개", safeguarding: "아동보호", transparency: "투명성" },
 };
 const ogKey = (t, p) => (t.pre + (p || "home/")).replace(/\/$/, "").replace(/\//g, "--");
 function layout(t, { title, desc, p = "", body, active = "", og = "", kicker = "" }) {
@@ -368,7 +368,7 @@ ${COLUMNS.length ? `<section class="wrap notes-sec">
   <header class="sec-head"><h2>${esc(t.partnerTitle)}</h2></header>
   <div><p class="partner-line"><a class="cb" href="${S.chainbrief}" target="_blank" rel="noopener">CHAINBRIEF</a><span>${esc(t.partnerText)}</span></p>${S.qurator ? `<p class="partner-line"><a class="cb" href="${S.qurator}" target="_blank" rel="noopener">QURATOR</a><span>${esc(t.quratorText)}</span></p>` : ""}<p>${esc(t.partnerWanted)}</p><p><a class="text-link" href="${u(t, "get-involved/")}#partner">${esc(t.becomePartner)}</a></p></div>
 </section>
-
+${followBand(t)}
 <section class="band cta-band">
   <div class="wrap cta"><h2>${esc(t.ctaTitle)}</h2><p>${esc(t.ctaText)}</p><div class="cta-btns"><a class="btn btn-light" href="${u(t, "get-involved/")}#circle">${esc(t.join)}</a><a class="btn btn-line" href="${TG}" target="_blank" rel="noopener">${t.lang === "ko" ? "텔레그램 문의" : "Ask on Telegram"}</a></div></div>
 </section>`;
@@ -531,6 +531,22 @@ const volForm = (t) => { const F = VFORM[t.lang]; return `<section class="wrap f
     <div class="wide form-end"><button class="btn" type="submit">${esc(F.send)}</button><p class="small">${esc(F.privacy)}</p></div>
   </form>
 </section>`; };
+
+const CHANNELS = () => [
+  ["instagram", "Instagram", "@orielfoundation", S.instagram, "Photos and short stories, posted most days. The quickest way to see what we're up to.", "사진과 짧은 이야기를 거의 매일 올려요. 오리엘 소식을 가장 빠르게 보는 곳."],
+  ["telegram", "Telegram", "@oriel_foundation", S.tgChannel ? `https://t.me/${S.tgChannel.replace(/^@/, "")}` : "", "First news on volunteer trips: dates, places and how to join, before anywhere else.", "봉사 여행 날짜·장소·신청 방법을 가장 먼저 알려드리는 채널."],
+  ["linkedin", "LinkedIn", "Oriel Foundation", S.linkedinPage || S.linkedin, "How we're building the foundation, partners we meet, and ways professionals can help.", "재단을 만들어가는 과정, 만나는 파트너, 전문가로 도울 수 있는 방법."],
+  ["facebook", "Facebook", "Oriel Foundation", S.facebook, "Updates and photos for friends and family who'd like to follow along.", "가족·지인과 함께 보기 좋은 소식과 사진."],
+  ["x", "X", S.x ? `@${S.x.replace(/^.*\//, "").replace(/^@/, "")}` : "", S.x || "", "Short updates and links to everything new.", "짧은 소식과 새 글 링크."],
+  ["chainbrief", "CHAINBRIEF", "chainbrief.app", S.chainbrief, "Our media partner. Longer pieces about Oriel appear there too.", "미디어 파트너. 오리엘에 관한 긴 글도 함께 실려요."],
+].filter((c) => c[3]);
+const FOLLOW = {
+  en: { title: "Follow Oriel", lede: "Every step of building Oriel is shared in public. Pick the channel you already use.", band: "Follow along", bandLede: "We post what we do as we do it.", all: "All channels", open: "Open" },
+  ko: { title: "SNS 채널", lede: "오리엘이 만들어지는 모든 과정을 공개로 나눕니다. 평소 쓰는 채널로 따라와 주세요.", band: "소식 받기", bandLede: "하는 일을 그때그때 올립니다.", all: "전체 채널 보기", open: "열기" },
+};
+const chanCards = (t, list) => `<div class="chan-grid">${list.map(([id, n, h, url, en, ko]) => `<a class="chan chan-${id}" href="${esc(url)}" target="_blank" rel="noopener"><span class="chan-name">${esc(n)}</span><span class="chan-handle">${esc(h)}</span><span class="chan-text">${esc(t.lang === "ko" ? ko : en)}</span><span class="chan-go">${esc(FOLLOW[t.lang].open)} →</span></a>`).join("")}</div>`;
+const followPage = (t) => `${pageHead(FOLLOW[t.lang].title, FOLLOW[t.lang].lede)}<section class="wrap">${chanCards(t, CHANNELS())}</section>`;
+const followBand = (t) => `<section class="wrap follow-band" aria-labelledby="follow-band-title"><header class="sec-head"><h2 id="follow-band-title">${esc(FOLLOW[t.lang].band)}</h2><p>${esc(FOLLOW[t.lang].bandLede)}</p></header>${chanCards(t, CHANNELS().filter((c) => c[0] !== "chainbrief").slice(0, 4))}<p><a class="text-link" href="${u(t, "follow/")}">${esc(FOLLOW[t.lang].all)}</a></p></section>`;
 
 const thanks = (t) => `${pageHead(t.lang === "ko" ? "고맙습니다" : "Thank you", t.lang === "ko" ? "잘 받았습니다. 곧 이메일로 연락드릴게요." : "We have your note and will write back by email soon.")}<section class="wrap"><p><a class="btn btn-quiet" href="${u(t)}">${t.lang === "ko" ? "처음으로" : "Back to the start"}</a></p></section>`;
 
@@ -701,6 +717,7 @@ for (const t of [T.en, T.ko]) {
   write(P + "safeguarding/index.html", layout(t, { title: SAFE[t.lang].title, desc: SAFE[t.lang].lede, p: "safeguarding/", body: policyPage(t, SAFE[t.lang]) }));
   write(P + "transparency/index.html", layout(t, { title: TRANS[t.lang].title, desc: TRANS[t.lang].lede, p: "transparency/", body: policyPage(t, TRANS[t.lang]) }));
   write(P + "partners/index.html", layout(t, { title: PARTNERS[t.lang].title, desc: PARTNERS[t.lang].lede, p: "partners/", active: "partners/", body: partners(t) }));
+  write(P + "follow/index.html", layout(t, { title: FOLLOW[t.lang].title, desc: FOLLOW[t.lang].lede, p: "follow/", active: "follow/", body: followPage(t) }));
   write(P + "volunteer/index.html", layout(t, { title: VOL[t.lang].title, desc: VOL[t.lang].lede, p: "volunteer/", active: "volunteer/", body: policyPage(t, VOL[t.lang]) + volForm(t) }));
   write(P + "faq/index.html", layout(t, { title: FAQ[t.lang].title, desc: FAQ[t.lang].lede, p: "faq/", body: faq(t) }));
   write(P + "about/index.html", layout(t, { title: ABOUT[t.lang].title, desc: ABOUT[t.lang].lede, p: "about/", active: "about/", body: about(t) }));
@@ -709,7 +726,7 @@ write("404.html", layout(T.en, { title: "Page not found", p: "", body: `${pageHe
 
 for (const f of fs.readdirSync(path.join(ROOT, "public"))) fs.cpSync(path.join(ROOT, "public", f), path.join(DIST, f), { recursive: true });
 copyDir(path.join(ROOT, "images"), "images");
-const pages = ["", "volunteer/", "plan/", "partners/", "faq/", "journal/", "get-involved/", "safeguarding/", "transparency/", "about/", "notes/", "columns/", ...COLUMNS.map((n) => `columns/${n.slug}/`), ...JOURNAL.map((p) => `journal/${p.slug}/`), ...NOTES.map((n) => `notes/${n.slug}/`)];
+const pages = ["", "volunteer/", "follow/", "plan/", "partners/", "faq/", "journal/", "get-involved/", "safeguarding/", "transparency/", "about/", "notes/", "columns/", ...COLUMNS.map((n) => `columns/${n.slug}/`), ...JOURNAL.map((p) => `journal/${p.slug}/`), ...NOTES.map((n) => `notes/${n.slug}/`)];
 write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${pages.flatMap((p) => [ABS + p, ABS + "ko/" + p]).map((l) => `<url><loc>${l}</loc></url>`).join("")}</urlset>\n`);
 write("og-pages.json", JSON.stringify(OG_PAGES, null, 1));
 // 공유 이미지 점검: 이미지가 없는 페이지와, 페이지가 없어진 이미지를 알려 준다 (빌드는 계속)
