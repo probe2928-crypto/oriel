@@ -10,8 +10,8 @@ T = {
   "en": ("FOLLOW ORIEL", "Watch a small window<br>open, step by step.", "Every step of building Oriel, shared in public.", "orielfoundation.org/follow"),
   "ko": ("오리엘 소식 받기", "작은 창이 열리는 과정,<br>함께 지켜봐 주세요.", "재단을 만드는 모든 걸음을 공개로 나눕니다.", "orielfoundation.org/ko/follow")},
  "volunteer": {
-  "en": ("VOLUNTEER TRIP · PHILIPPINES", "Come with us<br>this winter.", "5 days with a local volunteer organisation. Reading, meals, small repairs, and a lot of listening. Thailand and Vietnam next.", "Apply in 1 minute → orielfoundation.org/volunteer"),
-  "ko": ("봉사 여행 · 필리핀", "이번 겨울,<br>같이 가요.", "현지 봉사 단체와 함께하는 5일. 책 읽기, 식사 나눔, 작은 수리, 그리고 많이 듣기. 다음은 태국·베트남.", "1분 신청 → orielfoundation.org/ko/volunteer")},
+  "en": ("VOLUNTEER TRIP · PHILIPPINES", "Come with us<br>this winter.", "5 days with a local Christian volunteer organisation. Reading, meals, small repairs, and a lot of listening. Thailand and Vietnam next.", "Apply in 1 minute → orielfoundation.org/volunteer"),
+  "ko": ("봉사 여행 · 필리핀", "이번 겨울,<br>같이 가요.", "현지 기독교 봉사 단체와 함께하는 5일. 책 읽기, 식사 나눔, 작은 수리, 그리고 많이 듣기. 다음은 태국·베트남.", "1분 신청 → orielfoundation.org/ko/volunteer")},
 }
 def html(kind, lang, w, h):
     kick, head, sub, foot = T[kind][lang]

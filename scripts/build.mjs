@@ -49,7 +49,7 @@ const T = {
     howTitle: "How we work",
     how: [
       ["Local people lead", "Teachers, parents and community groups on the ground decide what is needed. We fund and support; we don't parachute in."],
-      ["Children are never the attraction", "We volunteer together with local partner organisations. When we meet children, it is only alongside our local partners and under their child-protection rules, and no volunteer is ever left alone with a child. No orphanage visits."],
+      ["Children are never the attraction", "We volunteer together with local Christian partner organisations. When we meet children, it is only alongside our local partners and under their child-protection rules, and no volunteer is ever left alone with a child. No orphanage visits."],
       ["Every photo has consent", "We photograph with a guardian's written consent, never at a child's lowest moment, and we never publish where a child lives."],
       ["Small first, then bigger", "One community and one partner before we take on a second. Buildings come only after the programs inside them work."],
     ],
@@ -108,7 +108,7 @@ const T = {
     howTitle: "일하는 원칙",
     how: [
       ["현지 사람들이 이끈다", "필요한 것은 현장의 선생님, 부모, 마을 단체가 정합니다. 우리는 돈과 손을 보탤 뿐, 밖에서 결정해 들이밀지 않습니다."],
-      ["아이는 구경거리가 아니다", "봉사는 현지 봉사 단체와 협력해서 합니다. 아이들을 만날 땐 현지 파트너와 함께, 그 단체의 아동보호 규칙 아래에서만 만나고, 봉사자가 아이와 단둘이 있는 일은 없습니다. 보육원 방문은 하지 않습니다."],
+      ["아이는 구경거리가 아니다", "봉사는 기독교 정신으로 세워진 현지 봉사 단체와 협력해서 합니다. 아이들을 만날 땐 현지 파트너와 함께, 그 단체의 아동보호 규칙 아래에서만 만나고, 봉사자가 아이와 단둘이 있는 일은 없습니다. 보육원 방문은 하지 않습니다."],
       ["모든 사진은 동의를 받는다", "보호자의 서면 동의를 받아 촬영하고, 아이가 가장 힘든 순간은 찍지 않으며, 아이가 사는 곳은 공개하지 않습니다."],
       ["작게 시작해 크게", "한 마을, 한 파트너와 먼저 해낸 뒤에 다음 마을로 갑니다. 건물은 그 안의 프로그램이 돌아간 다음에 짓습니다."],
     ],
@@ -551,19 +551,19 @@ const followBand = (t) => `<section class="wrap follow-band" aria-labelledby="fo
 const thanks = (t) => `${pageHead(t.lang === "ko" ? "고맙습니다" : "Thank you", t.lang === "ko" ? "잘 받았습니다. 곧 이메일로 연락드릴게요." : "We have your note and will write back by email soon.")}<section class="wrap"><p><a class="btn btn-quiet" href="${u(t)}">${t.lang === "ko" ? "처음으로" : "Back to the start"}</a></p></section>`;
 
 const VOL = {
-  en: { title: "Volunteer trips", lede: "Short trips to the Philippines, Thailand and Vietnam, always together with a local volunteer organisation.",
+  en: { title: "Volunteer trips", lede: "Short trips to the Philippines, Thailand and Vietnam, always together with a local Christian volunteer organisation.",
     items: [
-      ["Where we're going", ["Philippines: 5 days this winter, our first trip, with a local volunteer organisation. Dates and region are being finalised.", "Thailand and Vietnam: next, once we have a trusted local partner in each country.", "We'll publish dates, places and costs here as soon as they're confirmed, and tell everyone who has asked first."]],
+      ["Where we're going", ["Philippines: 5 days this winter, our first trip, with a local Christian volunteer organisation. Dates and region are being finalised.", "Thailand and Vietnam: next, once we have a trusted local partner in each country.", "We'll publish dates, places and costs here as soon as they're confirmed, and tell everyone who has asked first."]],
       ["What volunteers do", ["Help local partners with what they already run: reading and English sessions alongside their teachers, sharing meals, carrying supplies, tidying classrooms and small repairs.", "Listen and learn, so Oriel's future programmes fit what families there actually need.", "Bring back honest stories and photos (only with consent) to share what we saw."]],
-      ["How we keep children safe", ["Every trip is run together with a local partner organisation and follows its child-protection rules.", "We meet children only alongside local partners. No volunteer is ever left alone with a child. No orphanage visits.", "Every volunteer reads our safeguarding policy and signs our code of conduct before the trip."]],
+      ["How we keep children safe", ["Every trip is run together with a local Christian partner organisation and follows its child-protection rules.", "We meet children only alongside local partners. No volunteer is ever left alone with a child. No orphanage visits.", "Every volunteer reads our safeguarding policy and signs our code of conduct before the trip."]],
       ["Who can come", ["Anyone with a warm heart. No experience needed: teachers, students, parents, nurses, builders, people of faith or not.", "Costs, age requirements and what to prepare will be shared together with the trip details."]],
       ["Join a trip", ["Fill in the short form below, or send us a message on Telegram @btcbullit or Instagram @orielfoundation, or email us (address at the bottom of this page), with your name, which country interests you and when you're free.", "Follow our Telegram channel t.me/oriel_foundation for trip updates."]],
     ] },
-  ko: { title: "봉사 여행", lede: "필리핀·태국·베트남으로 떠나는 짧은 봉사. 언제나 현지 봉사 단체와 함께합니다.",
+  ko: { title: "봉사 여행", lede: "필리핀·태국·베트남으로 떠나는 짧은 봉사. 언제나 현지 기독교 봉사 단체와 함께합니다.",
     items: [
-      ["어디로 가나요", ["필리핀: 이번 겨울 5일, 첫 봉사입니다. 현지 봉사 단체와 함께하며 날짜와 지역은 확정 중입니다.", "태국·베트남: 나라마다 믿을 수 있는 현지 파트너를 찾은 뒤 이어 갑니다.", "날짜·장소·비용이 확정되면 이 페이지에 가장 먼저 올리고, 문의 주신 분들께 먼저 알려드립니다."]],
+      ["어디로 가나요", ["필리핀: 이번 겨울 5일, 첫 봉사입니다. 현지 기독교 봉사 단체와 함께하며 날짜와 지역은 확정 중입니다.", "태국·베트남: 나라마다 믿을 수 있는 현지 파트너를 찾은 뒤 이어 갑니다.", "날짜·장소·비용이 확정되면 이 페이지에 가장 먼저 올리고, 문의 주신 분들께 먼저 알려드립니다."]],
       ["무엇을 하나요", ["현지 단체가 이미 하고 있는 일을 돕습니다. 그곳 선생님들과 함께하는 책 읽기·영어 시간, 식사 나눔, 물품 나르기, 교실 정리와 작은 수리.", "듣고 배웁니다. 오리엘의 앞으로의 프로그램이 그곳 가정에 정말 필요한 것이 되도록.", "본 것을 정직하게 기록해 나눕니다(사진은 동의를 받은 것만)."]],
-      ["아이들을 어떻게 지키나요", ["모든 봉사는 현지 봉사 단체와 협력해 진행하고, 그 단체의 아동보호 규칙을 따릅니다.", "아이들은 현지 파트너와 함께 있을 때만 만납니다. 봉사자가 아이와 단둘이 있는 일은 없습니다. 보육원 방문은 하지 않습니다.", "모든 봉사자는 출발 전 아동보호 정책을 읽고 행동강령에 서명합니다."]],
+      ["아이들을 어떻게 지키나요", ["모든 봉사는 기독교 정신으로 세워진 현지 봉사 단체와 협력해 진행하고, 그 단체의 아동보호 규칙을 따릅니다.", "아이들은 현지 파트너와 함께 있을 때만 만납니다. 봉사자가 아이와 단둘이 있는 일은 없습니다. 보육원 방문은 하지 않습니다.", "모든 봉사자는 출발 전 아동보호 정책을 읽고 행동강령에 서명합니다."]],
       ["누가 갈 수 있나요", ["따뜻한 마음이 있는 누구나. 경험은 필요 없습니다. 선생님, 학생, 부모, 간호사, 기술자, 신앙이 있든 없든 모두 환영합니다.", "비용, 참가 나이, 준비물은 일정이 확정될 때 함께 안내합니다."]],
       ["함께 가기", ["아래 신청 폼을 채워 주시거나, 텔레그램 @btcbullit, 인스타그램 @orielfoundation, 또는 이메일(페이지 맨 아래 주소)로 이름, 관심 있는 나라, 가능한 시기를 보내 주세요.", "봉사 소식은 텔레그램 채널 t.me/oriel_foundation에서 가장 먼저 전합니다."]],
     ] },
