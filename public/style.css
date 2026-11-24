@@ -237,6 +237,8 @@ h3 { font-weight: 400; }
 .form-end { display: flex; gap: 28px; align-items: center; flex-wrap: wrap; }
 .form-end .small { flex: 1 1 18em; margin: 0; }
 .hp { position: absolute; left: -9999px; }
+.form label.check { display: flex; gap: 10px; align-items: flex-start; text-transform: none; font: inherit; color: var(--text); }
+.form label.check input { appearance: auto; -webkit-appearance: checkbox; width: 18px; height: 18px; min-height: 0; padding: 0; border: 0; margin-top: 3px; flex: none; accent-color: var(--ink); }
 
 /* footer — 가운데 워드마크 */
 .site-foot { margin-top: clamp(96px, 12vw, 160px); border-top: 1px solid var(--rule); padding-top: clamp(64px, 8vw, 96px); text-align: center; }
