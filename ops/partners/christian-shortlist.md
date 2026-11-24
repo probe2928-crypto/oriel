@@ -1,29 +1,38 @@
-# 기독교 파트너 후보 (2026-11-24 조사)
+# Christian partner shortlist (updated 2026-11-25)
 
-원칙(세준 11/24): **기독교 정신으로 세운 단체하고만 협력한다.** 보육원 방문 없음, 서면 아동보호 정책이 있는 곳만.
-Yellow Boat of Hope = 일반(비종교) 단체 → 협력 대상 아님, 배우는 관계만.
+Rule: partner only with organisations founded on Christian principles.
+Filter: hosts short-term teams · written child protection policy · education / food / housing work · no orphanage or children's-home volunteering · public contact.
 
-## 필리핀 (이번 겨울 5일 봉사 후보)
-| 단체 | 기독교 근거 | 우리와 맞는 점 | 확인할 것 |
-|---|---|---|---|
-| Habitat for Humanity Philippines (habitat.org.ph) | 초교파 기독교 주거 사역, 1988년 설립 | 해외 봉사팀 프로그램(Global Village) 운영, 집·교실 짓기 = 오리엘 'Build' | 필리핀 Global Village 일정·팀 비용·최소 인원 |
-| YWAM Philippines (ywamph.com/outreach-teams) | 초교파 선교 단체 | 단기 아웃리치 팀을 받음, 어린이 사역·지역 봉사 | 5일 일정 가능 여부, 아동보호 정책 |
-| Church of the Nazarene Philippines (Asia-Pacific Nazarene 봉사 기회) | 교단 | 단기팀이 현지 교회와 성경학교·캠프·건축 | 일정·지역 |
-| ACTION International – Pag-Asa School (Manila) | 선교 단체 | 연중 팀 방문 가능 | '고아' 표현 있음 → 아동보호·방문 방식 꼭 확인 |
-| Compassion Philippines | 교회 파트너 300곳+ 아동발달센터 | 교회 중심, 아동보호 엄격 | 일반 봉사팀은 거의 안 받음 → 후원자 방문·교회 연결 정도 |
-| World Team Philippines | 선교 단체, 아동안전 무관용 정책 | 아동보호 체계 | 주로 장기·인턴, 5일 팀은 어려울 수 있음 |
+## Philippines (first trip)
 
-## 태국 (다음)
-- Concordia Welfare & Education Foundation – Thailand (CWEFT): 1988년 설립, 빈곤 아동 교육
-- Operation Blessing Foundation (Thai): 2001년 설립, 교회와 가정 연결
-- Siam-Care Foundation: 기독교 단체에서 시작
-- World Vision Thailand: 기독교 신앙 기반(대형)
+| Rank | Organisation | Christian basis | Fit | Caution |
+|---|---|---|---|---|
+| 1 | Philippine Children's Ministries Network (PCMN), Quezon City | Christian network of ~700 churches + 45 orgs; Viva member | Connects us to vetted local churches/ministries; child-safe focus, uses Viva quality standards | Network, not a host itself: ask for a referral to a member that hosts teams |
+| 2 | Church of the Nazarene Asia-Pacific (Philippines field) | Denomination | Formal "service opportunity" for teams: VBS, youth camps, construction (Work & Witness) | Evangelism component; confirm child protection rules for VBS |
+| 3 | Children's Garden of the Philippines / CARE Philippines | Christian Action for Reconciliation & Evangelism | Feeding, values education, educational assistance (Union Church of Manila partner) | Not yet confirmed that it hosts outside teams |
+| 4 | YWAM Philippines (ywamph.com/outreach-teams) | Christian mission | Hosts outreach teams regularly (Cavite near Manila, Palawan) | Mostly street/evangelism outreach; YWAM short-term safety has been criticised; ask for CP policy |
+| 5 | Hope 4 Kids International (h4ki.org/teams) | Christian | 1-2 week PH trips, MissionExcellence member; daycare, school supplies | US agency; trips tied to child sponsorship visits |
+| Hold | Kids International Ministries (Cainta/Tondo) | Christian | Feeding, Christian school, clinic | Runs a children's home; team schedules include it, which breaks our no-orphanage rule. Only if work is limited to feeding/school |
+| Note | Habitat for Humanity Philippines | Christian housing ministry | Housing builds | No Global Village PH builds in the 2027 schedule |
 
-## 베트남 (다음)
-- L.O.V.E. (Love of Vietnam Expressed): 기독교 구호 단체, 다낭에서 단기 선교팀 받음, 아이들 학비·보충수업 지원
-- Samaritan's Purse Vietnam: 기독교 구호(교육·보호 포함, 대형)
-- 참고: 베트남은 종교 활동 제약이 있어 '봉사'와 '전도' 활동을 분리해 현지 법 확인 필요
+## Thailand
 
-## 다음 단계
-1. 필리핀 1순위: Habitat Philippines, YWAM Philippines에 문의 메일(오리온 담당, 세준 확인 후 발송)
-2. 질문: 5일 팀 가능 여부, 일정, 1인 비용, 아동보호 정책 문서, 비기독교인 봉사자 참여 가능 여부
+| Rank | Organisation | Why |
+|---|---|---|
+| 1 | The Family Connection Foundation (FCF), Chiang Mai | Outreach of Chiang Mai Christian Fellowship; Lausanne Covenant. Short-term visitors (<14 days) must read the Child Protection and Media policies and sign a Code of Conduct. Best fit found so far. |
+| 2 | YWAM Chiang Mai | Written child protection guidelines that short-term volunteers sign |
+| Earlier list | CWEFT, Operation Blessing Thai, Siam-Care, World Vision TH | Keep as backups |
+
+## Vietnam
+
+| Rank | Organisation | Why |
+|---|---|---|
+| 1 | Habitat for Humanity Vietnam | Christian housing ministry; active Global Village builds (Dong Thap, An Giang, Thai Nguyen) |
+| 2 | L.O.V.E. (Love of Vietnam Expressed), Da Nang | Christian relief mission; hosts short-term church/medical teams; scholarships |
+| 3 | Mission Alliance Vietnam (Ho Chi Minh City; Mekong Delta) | Norwegian Christian development org; education/livelihood |
+| 4 | Samaritan's Purse Vietnam | Health, WASH, education, protection |
+
+## Next steps
+1. Oriel outreach email: PCMN (referral ask), Nazarene Asia-Pacific (team service), FCF Thailand (policy + hosting).
+2. Ask each: written child protection policy, team size/dates (Dec 2026 - Feb 2027), cost per person, what volunteers actually do.
+3. Do not ask volunteers about their own faith; the Christian rule applies to partner organisations.
