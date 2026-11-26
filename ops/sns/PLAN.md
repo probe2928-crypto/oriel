@@ -1,5 +1,7 @@
 # 오리엘 SNS 계획 (그로스 리드 오성장 · SNS 매니저 오하늘)
 
+> ⚠️ 인스타 게시는 Claude in Chrome(@orielfoundation)에서. 내장 브라우저 인스타는 @lifejunjun이라 쓰지 않음 — marketing/sns-kit/README.md 참고.
+
 ## 오늘 회의 결정 (2026-11-25)
 
 > 오하늘(19:13)·오아침(08:23)은 이 칸을 우선 따른다(아래 '요일별 기본 주제'보다 우선). 근거·분석은 [meetings/2026-11-25.md](meetings/2026-11-25.md).

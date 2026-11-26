@@ -16,6 +16,12 @@
 
 같은 주제라도 **채널마다 글을 새로 쓴다.** 복붙 금지. 이미지도 비율을 맞춘다.
 
+## ⚠️ 계정·브라우저 규칙 (2026-11-26 확정)
+- Instagram @orielfoundation 게시는 **Claude in Chrome**(mcp__claude-in-chrome__*)에서 한다. Chrome 인스타는 @orielfoundation으로 로그인돼 있음.
+- 내장 브라우저(Claude_Browser) 인스타는 **@lifejunjun(여행 사업) 계정** — 오리엘 게시에 쓰지 말고, 계정 전환·로그아웃도 하지 않는다.
+- 게시 전 화면 왼쪽 프로필이 orielfoundation인지 꼭 확인. 아니면 건너뛰고 기록.
+- Facebook Oriel 페이지도 Chrome('지금 전환'으로 Oriel 페이지로 행동).
+
 ## Instagram @orielfoundation — "눈으로 보는 이야기"
 - 형식: 캐러셀 3~7장(4:5, 1080×1350)이 기본. 1장 = 훅(질문·한 문장·숫자), 마지막 장 = 행동 유도("프로필 링크에서 신청", "저장해두세요").
 - 캡션: 첫 줄 125자 안에 핵심(더보기 전에 보이는 부분). 본문은 짧은 줄바꿈, 이모지 1~3개. 영어 → 한국어 2~3줄.
