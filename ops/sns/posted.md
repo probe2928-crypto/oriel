@@ -11,3 +11,6 @@
 | 2026-11-25 | am (08:26 KST) | telegram @oriel_foundation | 회의 결정 ②: 창문 인사 — follow-ko-wide + "☀️ 좋은 아침 · 오늘 19:13 GivingTuesday D-6 소식" (utm 20261125-am) | 미확인 |
 | 2026-11-25 | am (08:3x KST) | facebook Oriel 페이지 | 같은 주제, follow-ko-portrait + 편지형 한국어 글·follow 링크(utm 20261125-am) | 미확인 |
 | 2026-11-25 | am | instagram | ⏸ 건너뜀: 내장 브라우저 인스타 로그인 계정이 여전히 @lifejunjun(오리엘 아님). 캡션은 marketing/instagram/2026-11-25-am/captions.md | - |
+| 2026-11-26 | am (실제 게시 11/27 00:5x KST, 예약 08:23보다 늦게 실행) | instagram @orielfoundation (Chrome) | 회의 결정 ②: '기억해 둘 숫자 하나' — 11,100,000 카드(GivingTuesday 2025 자원봉사자 수), 늦게 실행돼 D-4 표기. marketing/instagram/2026-11-26-am | 미확인 |
+| 2026-11-26 | am (00:5x KST) | facebook Oriel 페이지 | 같은 숫자 카드 + 편지형 한국어 글·질문·봉사 링크(utm 20261126-am) | 미확인 |
+| 2026-11-26 | am | telegram @oriel_foundation | ⏸ 건너뜀: 내장 브라우저 web.telegram.org(k·a 모두) 로그아웃 상태(QR 로그인 화면). 공지 문구는 captions.md에 준비됨 | - |
