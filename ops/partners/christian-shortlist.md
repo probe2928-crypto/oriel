@@ -32,7 +32,7 @@ Filter: hosts short-term teams · written child protection policy · education /
 | 3 | Mission Alliance Vietnam (Ho Chi Minh City; Mekong Delta) | Norwegian Christian development org; education/livelihood |
 | 4 | Samaritan's Purse Vietnam | Health, WASH, education, protection |
 
-## Outreach log (do NOT re-email; follow up only after 7 days without reply)
+## Outreach log (do NOT re-email; no follow-ups)
 | Date | Organisation | Sent to | Status |
 |---|---|---|---|
 | 2026-11-25 | PCMN | pcmn2016@gmail.com (cc thepcmn2020@gmail.com) | Sent – referral ask |
@@ -43,7 +43,7 @@ Filter: hosts short-term teams · written child protection policy · education /
 
 ## Standing rules for the partnership staff (오리온) — updated 2026-11-25 by Sejun
 - FOCUS: Oriel will work with only 1-2 Christian partners and help them steadily over the long term. Depth over breadth.
-- NO new cold outreach. Only handle the three already contacted (PCMN, FCF, Nazarene AP): watch for replies, one follow-up after 7 days without reply, then stop.
+- NO new cold outreach. Only handle the three already contacted (PCMN, FCF, Nazarene AP): watch for replies. No follow-up or reminder emails (Sejun 2026-11-27: "독촉은 하지마").
 - Pick the final 1-2 from the replies: Christian basis, written child protection policy, real education/food/housing work, can host a small team repeatedly, honest about costs.
 - Research new organisations only if all three decline or don't respond by 2026-12-16, and then email at most one.
 - Never solve CAPTCHAs. Log every email here.
