@@ -39,6 +39,7 @@ Filter: hosts short-term teams · written child protection policy · education /
 | 2026-11-25 | FCF Thailand | info@fcfthailand.org | Sent – team hosting + policy |
 | 2026-11-25 | Nazarene Asia-Pacific | news@apnaz.org (contact form blocked by CAPTCHA) | Sent – asked to forward to missions/PH field |
 | 2026-11-25 (check) | All three | Gmail inbox | No replies, no bounces. Follow-up due 2026-12-02 if still silent (one only). |
+| 2026-11-27 (check) | All three | Gmail inbox | Still no replies, no bounces (each thread has only our sent message). Nothing sent. Follow-up due 2026-12-02 (one only). |
 
 ## Standing rules for the partnership staff (오리온) — updated 2026-11-25 by Sejun
 - FOCUS: Oriel will work with only 1-2 Christian partners and help them steadily over the long term. Depth over breadth.
