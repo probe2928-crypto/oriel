@@ -18,3 +18,6 @@
 | 2026-11-26 | pm | facebook Oriel 페이지 (Chrome, Oriel로 활동 중) | 같은 주제, 카드 1·3 + 한국어 먼저 글 + 질문 + 링크(utm 20261126-volunteer-guide) | 미확인 |
 | 2026-11-26 | pm (00:49 KST) | telegram @oriel_foundation (Chrome — 내장 브라우저 텔레그램은 로그아웃 상태) | 같은 주제, 텍스트+링크 미리보기(utm 20261126-volunteer-guide). 이미지 첨부는 파일 입력이 반응 없어 생략 | 직전 게시(11/25 아침) 조회 1, 구독자 1 |
 | 2026-11-26 | pm | x · linkedin · chainbrief | X 계정 없음 / 목요일이라 링크드인·체인브리프 해당 없음 | - |
+| 2026-11-27 | am (실제 게시 11:3x KST, 예약 08:23보다 늦게 실행) | instagram @orielfoundation (Chrome) | 회의 결정 ②: '기억해 둘 숫자 하나' +20% 카드(GivingTuesday 2025 자원봉사 참여 전년 대비, D-4) — marketing/instagram/2026-11-27-am | 직전 게시(11,100,000 카드) 게시 10시간 경과 |
+| 2026-11-27 | am (11:3x KST) | facebook Oriel 페이지 (Chrome, Oriel로 활동 중) | 같은 숫자 카드 + 편지형 한국어 글·질문·봉사 링크(utm 20261127-am) | 미확인 |
+| 2026-11-27 | am (11:35 KST) | telegram @oriel_foundation (Chrome) | D-4 공지 5줄 + follow 링크 미리보기(utm 20261127-am). 이미지 첨부는 파일 입력이 반응 없어 생략 | 직전 게시(11/26 저녁) 조회 1, 구독자 1 |
