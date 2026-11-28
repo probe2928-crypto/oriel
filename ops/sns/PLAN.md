@@ -1,5 +1,7 @@
 # 오리엘 SNS 계획 (그로스 리드 오성장 · SNS 매니저 오하늘)
 
+> ⏸ 텔레그램 일시 중단 (세준 2026-11-29): 구독자 1명이라 당분간 텔레그램(@oriel_foundation)에는 게시하지 않는다. 인스타·페북·링크드인에 집중. 다시 시작하라는 지시가 있을 때까지 건너뛰고 기록도 생략.
+
 > ⚠️ 인스타 게시는 Claude in Chrome(@orielfoundation)에서. 내장 브라우저 인스타는 @lifejunjun이라 쓰지 않음 — marketing/sns-kit/README.md 참고.
 
 ## 오늘 회의 결정 (2026-11-27)
